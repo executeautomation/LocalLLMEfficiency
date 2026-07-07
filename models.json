@@ -1,0 +1,90 @@
+{
+  "providers": {
+    "lmstudio": {
+      "baseUrl": "http://127.0.0.1:1234/v1",
+      "api": "openai-completions",
+      "apiKey": "lm-studio",
+      "models": [
+        {
+          "id": "qwen3.6-35b-a3b-mtp",
+          "name": "qwen3.6-35b-a3b-mtp",
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768
+        }
+      ]
+    },
+    "mtplx": {
+      "baseUrl": "http://127.0.0.1:8000/v1",
+      "api": "openai-completions",
+      "apiKey": "mtplx-local",
+      "authHeader": true,
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false,
+        "maxTokensField": "max_tokens"
+      },
+      "models": [
+        {
+          "id": "mtplx-qwen36-27b-optimized-speed",
+          "name": "MTPLX mtplx-qwen36-27b-optimized-speed",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        }
+      ]
+    },
+    "omlx": {
+      "baseUrl": "http://127.0.0.1:8000/v1",
+      "api": "openai-completions",
+      "apiKey": "12345",
+      "authHeader": true,
+      "models": [
+        {
+          "id": "Qwen3.6-35B-A3B-oQ6-mtp",
+          "name": "Qwen3.6-35B-A3B-oQ6-mtp",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 131072 ,
+          "maxTokens": 32768
+        }
+      ]
+    },
+     "minimax": {
+      "baseUrl": "https://api.minimax.io/v1",
+      "api": "openai-completions",
+      "apiKey": "sk-cp-3dxZDTk_Ei6kRixSGqRSNeIUIC8lMLsCSYAKGV8_AwvMzRgoVAWoB6_FAukvvsC0qkZ1I-Cz0Zi9G1cvR2DD5HXSjOYpHilZFYAnqHzNnTExSSb8VCJk57E",
+      "models": [
+        {
+          "id": "MiniMax-M2.7",
+          "name": "MiniMax M2.7",
+          "api": "openai-completions",
+          "reasoning": true,
+          "input": ["text"],
+          "contextWindow": 204800,
+          "maxTokens": 131072,
+          "cost": {
+            "input": 0.30,
+            "output": 1.20,
+            "cacheRead": 0.06,
+            "cacheWrite": 0
+          }
+        }
+      ]
+     }
+  }
+}

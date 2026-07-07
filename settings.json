@@ -1,0 +1,12 @@
+{
+  "lastChangelogVersion": "0.80.2",
+  "defaultProvider": "lmstudio",
+  "defaultModel": "qwen3.6-35b-a3b-mtp",
+  "defaultThinkingLevel": "medium",
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 16384,
+    "keepRecentTokens": 20000
+  },
+  "theme": "dark"
+}
