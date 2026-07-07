@@ -67,7 +67,7 @@
      "minimax": {
       "baseUrl": "https://api.minimax.io/v1",
       "api": "openai-completions",
-      "apiKey": "sk-cp-3dxZDTk_Ei6kRixSGqRSNeIUIC8lMLsCSYAKGV8_AwvMzRgoVAWoB6_FAukvvsC0qkZ1I-Cz0Zi9G1cvR2DD5HXSjOYpHilZFYAnqHzNnTExSSb8VCJk57E",
+      "apiKey": "sk-cp--",
       "models": [
         {
           "id": "MiniMax-M2.7",
